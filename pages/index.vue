@@ -10,11 +10,20 @@ function toggleDark() {
 </script>
 
 <template>
-  <div class="text-red">
-    <span>Hello World {{ x }}, {{ y }}</span>
+  <div class="grid grid-cols-[1fr_2fr] h-full">
+    <div class="border-r border-base p4">
+      Content
 
-    <br>
+      <div class="text-red">
+        <span>Hello World {{ x }}, {{ y }}</span>
 
-    <button @click="toggleDark" v-text="color.value" />
+        <br>
+
+        <button @click="toggleDark" v-text="color.value" />
+      </div>
+    </div>
+    <div class="p4">
+      Playground
+    </div>
   </div>
 </template>
