@@ -1,6 +1,8 @@
 <template>
   <nav px6 py4 text-lg border="b base" flex="~ gap-2 items-center">
-    <div i-logos-nuxt-icon text-xl />
+    <NuxtLink to="/">
+      <div i-logos-nuxt-icon text-xl />
+    </NuxtLink>
     <span text-xl>
       learn.nuxt.com
     </span>
