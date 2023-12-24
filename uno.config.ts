@@ -2,6 +2,7 @@ import {
   defineConfig,
   presetAttributify,
   presetIcons,
+  presetTypography,
   presetUno,
   presetWebFonts,
   transformerDirectives,
@@ -23,6 +24,7 @@ export default defineConfig({
         sans: 'DM Sans',
       },
     }),
+    presetTypography(),
   ],
   transformers: [
     transformerDirectives(),
