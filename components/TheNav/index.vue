@@ -4,9 +4,11 @@
       <div i-logos-nuxt-icon text-xl />
     </NuxtLink>
     <span text-xl>
-      learn.nuxt.com
+      Playground
     </span>
     <div flex-auto />
+
+    <ColorSchemeToggle />
     <NuxtLink
       p2 rounded
       hover="bg-active"
